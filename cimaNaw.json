@@ -10,3 +10,17 @@
     {"title": "المسلسلات الأجنبية", "path": "/category/مسلسلات-اجنبية/"},
     {"title": "الأفلام العربية", "path": "/category/افلام-عربية/"}
   ],
+  "selectors": {
+    "main": {
+      "item": "article",
+      "title": "li[aria-label='title']",
+      "link": "a",
+      "image": "img",
+      "img_attr": "data-src"
+    },
+    "player": {
+      "decode_key": "hide_my_HTML_",
+      "switch_api": "/wp-content/themes/Cima%20Now%20New/core.php?action=switch&index={index}&id={id}"
+    }
+  }
+}
