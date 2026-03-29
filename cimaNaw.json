@@ -16,7 +16,20 @@
       "title": "li[aria-label='title']",
       "link": "a",
       "image": "img",
-      "img_attr": "data-src"
+      "img_attr": "data-src",
+      "plot": "ul#details li:contains(لمحة) p"
+    },
+    "seasons": {
+      "item": "section[aria-label='seasons'] ul li a",
+      "url_attr": "abs:href"
+    },
+    "episodes": {
+      "container": "ul#eps",
+      "item": "li a",
+      "number": "em",
+      "title": "img:nth-child(2)",
+      "title_attr": "alt",
+      "url_attr": "abs:href"
     },
     "player": {
       "decode_key": "hide_my_HTML_",
