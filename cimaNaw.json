@@ -2,27 +2,21 @@
   "provider": "CimaNow",
   "mainUrl": "https://cimanow.cc",
   "config": {
-    "user_agent": "Mozilla/5.0 (Linux; Android 11)",
+    "user_agent": "Mozilla/5.0 (Linux; Android 11; ...)",
     "encoding_offset": 87653
   },
   "navigation": [
     {
-      "title": "الأفلام الأجنبية", 
-      "path": "/category/افلام-اجنبية/",
-      "target_list": "data_movies",
-      "target_rv": "movie"
+      "title": "الأفلام الأجنبية",
+      "path": "/category/افلام-اجنبية/"
     },
     {
-      "title": "المسلسلات الأجنبية", 
-      "path": "/category/مسلسلات-اجنبية/",
-      "target_list": "data_series_englich",
-      "target_rv": "series_english"
+      "title": "المسلسلات الأجنبية",
+      "path": "/category/مسلسلات-اجنبية/"
     },
     {
-      "title": "الأفلام العربية", 
-      "path": "/category/افلام-عربية/",
-      "target_list": "data_anime",
-      "target_rv": "anime"
+      "title": "الأفلام العربية",
+      "path": "/category/افلام-عربية/"
     }
   ],
   "selectors": {
@@ -31,24 +25,11 @@
       "title": "li[aria-label='title']",
       "link": "a",
       "image": "img",
-      "img_attr": "data-src",
-      "plot": "ul#details li:contains(لمحة) p"
-    },
-    "seasons": {
-      "item": "section[aria-label='seasons'] ul li a",
-      "url_attr": "abs:href"
-    },
-    "episodes": {
-      "container": "ul#eps",
-      "item": "li a",
-      "number": "em",
-      "title": "img:nth-child(2)",
-      "title_attr": "alt",
-      "url_attr": "abs:href"
+      "img_attr": "data-src"
     },
     "player": {
       "decode_key": "hide_my_HTML_",
-      "switch_api": "/wp-content/themes/Cima%20Now%20New/core.php?action=switch&index={index}&id={id}"
+      "switch_api": "/wp-content/themes/Cima%20Now/..."
     }
   }
 }
