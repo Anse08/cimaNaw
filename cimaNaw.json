@@ -6,9 +6,24 @@
     "encoding_offset": 87653
   },
   "navigation": [
-    {"title": "الأفلام الأجنبية", "path": "/category/افلام-اجنبية/"},
-    {"title": "المسلسلات الأجنبية", "path": "/category/مسلسلات-اجنبية/"},
-    {"title": "الأفلام العربية", "path": "/category/افلام-عربية/"}
+    {
+      "title": "الأفلام الأجنبية", 
+      "path": "/category/افلام-اجنبية/",
+      "target_list": "data_movies",
+      "target_rv": "movie"
+    },
+    {
+      "title": "المسلسلات الأجنبية", 
+      "path": "/category/مسلسلات-اجنبية/",
+      "target_list": "data_series_englich",
+      "target_rv": "series_english"
+    },
+    {
+      "title": "الأفلام العربية", 
+      "path": "/category/افلام-عربية/",
+      "target_list": "data_anime",
+      "target_rv": "anime"
+    }
   ],
   "selectors": {
     "main": {
