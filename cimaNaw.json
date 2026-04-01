@@ -15,7 +15,7 @@
     {"title": "أفلام عربية", "path": "/category/أفلام-عربية/"},
     {"title": "مسلسلات عربية", "path": "/category/مسلسلات-عربية/"}
   ],
-  "selectors": {
+"selectors": {
     "main": {
       "item": "section[aria-label='posts'] article, .owl-body article",
       "title": "li[aria-label='title'], h2",
@@ -23,7 +23,6 @@
       "image": "img",
       "img_attr": "data-src",
       "year": "li[aria-label='year']"
-      "genre": "li[aria-label='year']"
     },
     "series": {
       "is_series_check": "section[aria-label='seasons'], ul#eps",
@@ -35,6 +34,26 @@
       "episode_link": "href"
     },
     "player": {
+      "decode_key": "hide_my_HTML_",
+      "server_list_item": "ul#serversList li",
+      "server_attr_id": "data-id",
+      "server_attr_index": "data-index",
+      "switch_api": "/wp-content/themes/Cima%20Now%20New/core.php?action=switch&index={index}&id={id}",
+      "iframe": "iframe",
+      "iframe_src": "src",
+      "video_regex": "\\[(\\d+p)\\]\\s+(/uploads/[^\"]+\\.mp4)",
+      "m3u8_regex": "https?://[^\\s\"']+\\.(?:m3u8|mp4)[^\\s\"']*",
+      "is_base64_encoded": true
+    }
+  },
+  "search": {
+    "path": "/?s={query}",
+    "item_selector": "section article[aria-label='post'] a",
+    "title_selector": "li[aria-label='title']",
+    "img_selector": "img",
+    "img_attr": "data-src"
+  }
+}    "player": {
       "decode_key": "hide_my_HTML_",
       "server_list_item": "ul#serversList li",
       "server_attr_id": "data-id",
