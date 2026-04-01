@@ -24,7 +24,6 @@
       "img_attr": "data-src",
       "year": "li[aria-label='year']"
       "genre": "li[aria-label='year']"
-      
     },
     "series": {
       "is_series_check": "section[aria-label='seasons'], ul#eps",
