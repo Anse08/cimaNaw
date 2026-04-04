@@ -7,7 +7,7 @@
     "encoding_offset": 87653
   },
   "navigation": [
-    {"title": "مسلسلات تركية", "path": "/category/مسلسلات-تركية/"}
+    {"title": "مسلسلات تركية", "path": "/category/مسلسلات-تركية/"},
     {"title": "الرئيسية", "path": "/home"},
     {"title": "الأفلام", "path": "/category/الافلام/"},
     {"title": "المسلسلات", "path": "/category/المسلسلات/"},
@@ -15,7 +15,9 @@
     {"title": "مسلسلات أجنبية", "path": "/category/مسلسلات-اجنبية/"},
     {"title": "أفلام عربية", "path": "/category/أفلام-عربية/"},
     {"title": "مسلسلات عربية", "path": "/category/مسلسلات-عربية/"}
-  ],
+  ]
+}
+
   "selectors": {
     "main": {
       "item": "section[aria-label='posts'] article, .owl-body article",
