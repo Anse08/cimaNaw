@@ -15,9 +15,7 @@
     {"title": "مسلسلات أجنبية", "path": "/category/مسلسلات-اجنبية/"},
     {"title": "أفلام عربية", "path": "/category/أفلام-عربية/"},
     {"title": "مسلسلات عربية", "path": "/category/مسلسلات-عربية/"}
-  ]
-}
-
+  ],
   "selectors": {
     "main": {
       "item": "section[aria-label='posts'] article, .owl-body article",
@@ -56,5 +54,4 @@
       "img_attr": "data-src"
     }
   }
-    }
-      
+}
